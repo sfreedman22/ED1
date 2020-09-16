@@ -1,2 +1,2 @@
 # ED1
-Class materials for E+D 1
+Engineering and Design 1 class materials 
