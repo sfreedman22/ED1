@@ -39,10 +39,10 @@ function draw() {
       
       
       ellipse(x,y,random(-shift,shift)); 
-    // quad( x+random(-shift,shift)+space,y + space + random(-shift,shift), 
-    //        x+sideLen+random(-shift,shift)-space,y +space + random(-shift,shift), 
-    //        x+sideLen-space +random(-shift,shift),y+sideLen -space + random(-shift,shift), 
-    //        x + space + random(-shift,shift),y+sideLen-space+random(-shift,shift));
+    quad( x+random(-shift,shift)+space,y + space + random(-shift,shift), 
+    x+sideLen+random(-shift,shift)-space,y +space + random(-shift,shift), 
+x+sideLen-space +random(-shift,shift),y+sideLen -space + random(-shift,shift), 
+x + space + random(-shift,shift),y+sideLen-space+random(-shift,shift));
         
     red = [random(200,255),0,0,alpha]; 
     orange = [255,random(100,200),random(30,50),alpha];
